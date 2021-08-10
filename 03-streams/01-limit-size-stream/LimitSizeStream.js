@@ -11,6 +11,7 @@ class LimitSizeStream extends stream.Transform {
   }
 
   _transform(chunk, encoding, callback) {
+    console.log(chunk.toString())
     let error;
     try {
       if (chunk.length <= this.#limit) {
