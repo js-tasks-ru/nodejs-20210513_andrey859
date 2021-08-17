@@ -5,7 +5,7 @@ const path = require('path');
 
 const FILE_NAME = path.resolve(process.cwd(), './from.txt');
 
-const limitedStream = new LimitSizeStream({limit: 59, encoding: 'utf-8'}); // 8 байт
+const limitedStream = new LimitSizeStream({limit: 159/*, encoding: 'utf-8'*/}); // 8 байт
 const outStream = fs.createWriteStream('out.txt');
 const readSt = createReadStream(FILE_NAME, {highWaterMark : 2});
 
