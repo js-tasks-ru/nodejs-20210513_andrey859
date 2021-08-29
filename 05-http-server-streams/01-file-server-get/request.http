@@ -1,0 +1,10 @@
+GET http://localhost:3000/222.html
+Content-Type: text/html;
+Cookie: key=value;
+Cookie: key2=value2;
+
+{
+  "hello": "world",
+  "hi": "England",
+  "ahoj": "Prague"
+}
