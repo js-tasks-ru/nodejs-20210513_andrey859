@@ -7,7 +7,7 @@ const http = require('http');
 const filesFolder = path.resolve(__dirname, '../files');
 const fixturesFolder = path.resolve(__dirname, './fixtures');
 
-describe('streams/file-server-post', () => {
+describe('http-server-streams/file-server-post', () => {
   describe('тесты на файловый сервер', () => {
     before((done) => {
       fse.emptyDirSync(filesFolder);

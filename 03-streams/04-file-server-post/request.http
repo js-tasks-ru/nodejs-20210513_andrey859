@@ -1,0 +1,11 @@
+POST http://localhost:3000/solution.txt
+Content-Type: text/html;
+Cookie: key=value;
+Cookie: key2=value2;
+
+{
+  "hello": "world",
+  "hi": "England",
+  "ahoj": "Prague",
+  "你好。": "北京"
+}
